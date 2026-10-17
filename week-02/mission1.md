@@ -91,7 +91,12 @@ learned patterns rather than only fixed rules.
 # Example 3: AI chatbot powered by an LLM
 Generative AI
 Classification: AI → ML → deep learning → LLM-based generative AI.
-Reason: An LLM is trained on large amounts of language data to learn patterns in text. It uses those learned patterns, along with the user's prompt and conversation context, to generate answers, summaries and other
-written content. This makes it an example of generative AI based on machine learning.
+
+# REFERENCES:
+1.**Google – Machine Learning Crash Course**  
+   https://developers.google.com/machine-learning/crash-course/
+2.**Google Cloud – What Is Machine Learning?**  
+   https://cloud.google.com/learn/what-is-machine-learning
+
 
 
