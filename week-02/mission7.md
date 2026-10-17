@@ -90,16 +90,10 @@ Scenario: A model achieves excellent test results but produces unreliable predic
 1. **Google for Developers – Data Quality**
    - Covers data quality issues, missing values and sampling bias.
    - https://developers.google.com/machine-learning/guides/data-traps/quality
-2. **Google for Developers – Monitoring ML Pipelines**
-   - Explains monitoring ML systems and identifying problems after deployment.
-   - https://developers.google.com/machine-learning/crash-course/production-ml-systems/monitoring
-3. **Google – Rules of Machine Learning**
+2. **Google – Rules of Machine Learning**
    - Explains training-serving differences and challenges with real-world data.
    - https://developers.google.com/machine-learning/guides/rules-of-ml
-4. **Google Cloud – Guidelines for Developing High-Quality ML Solutions**
+3. **Google Cloud – Guidelines for Developing High-Quality ML Solutions**
    - Covers model performance, data drift and production monitoring.
    - https://docs.cloud.google.com/architecture/guidelines-for-developing-high-quality-ml-solutions
-5. **NIST – AI Risk Management Framework**
-   - Covers AI risks, human oversight and trustworthy AI systems.
-   - https://www.nist.gov/itl/ai-risk-management-framework/ai-risk-management-framework-resources
 
