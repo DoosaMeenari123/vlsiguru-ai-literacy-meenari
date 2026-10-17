@@ -17,7 +17,7 @@ For example, in linear regression, the algorithm learns a relationship between i
 | Parameters | Values the model learns during training. | Weights and bias in linear regression |
 | Training | The process of learning patterns from example data. | Learning the relationship between chip frequency and power |
 | Inference | Using a trained model to make predictions on new data. | Predicting power consumption for a new chip |
-# Explain Training Versus Inference
+# Training Versus Inference
 Training and inference are two important stages in machine learning.
 Training is the process in which the algorithm learns patterns from example data. During training, the model makes predictions, compares them with the correct answers when available, measures the errors, and adjusts its parameters to improve its predictions.
 Inference is the process of using a trained model to make predictions on new data. The model applies what it has already learned to produce an output.
@@ -28,7 +28,7 @@ Inference is the process of using a trained model to make predictions on new dat
 | Training data is used. | New or unseen input data is used. |
 | It may require many iterations. | It usually produces an output after processing the input. |
 | Example: Learning from chip frequency and power data. | Example: Predicting the power consumption of a new chip. |
-# Describe How Model Outputs Are Compared with Target Answers During Training
+# Description of How Model Outputs Are Compared with Target Answers During Training
 During training, a model receives input examples and produces predictions. When the correct target answers are available, the predictions can be compared with those targets to measure how far the model's outputs are from the expected results.
 For example, suppose a model predicts the power consumption of a semiconductor chip. If the actual power consumption is known, we can compare the predicted value with the actual value and calculate the error.
 The model uses this error information during training to improve its parameters.
@@ -63,7 +63,7 @@ This process can be understood without using complicated mathematics:
 
 Different machine learning methods use different loss measures and optimisation approaches. For example, linear regression may use squared errors, while classification models may use a loss function designed for predicting categories.
 The main idea is that the model learns by using feedback about its predictions to improve its parameters.
-# Understand Linear Regression Conceptually
+# Understanding Linear Regression Conceptually
 Linear regression is a machine learning method used to predict a numerical value by learning a relationship between input features and known numerical outcomes.
 It tries to find a straight line that represents the relationship between the inputs and outputs as closely as possible.
 For example, in semiconductor manufacturing, we may want to estimate a chip's power consumption based on its operating frequency. We can provide training examples containing frequencies and their measured power consumption. The algorithm learns a relationship from those examples, and the trained model can estimate the power consumption for a new frequency.
@@ -102,8 +102,8 @@ How the flow works:
 5. Once training is complete, the trained model receives new input data and produces a prediction through inference.
 The diagram represents a common training process. The exact learning and optimisation methods can differ between machine learning algorithms.
 
-## References
+# Sources
 1. Google for Developers. *Machine Learning Crash Course*. https://developers.google.com/machine-learning/crash-course/
 2. Scikit-learn. *Getting Started: Fitting and Predicting*. https://scikit-learn.org/stable/getting_started.html
 3. Google for Developers. *Machine Learning Resources*. https://developers.google.com/machine-learning
-4. GitHub Docs. *Creating Diagrams*. https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams
+
