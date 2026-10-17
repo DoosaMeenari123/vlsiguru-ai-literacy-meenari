@@ -49,3 +49,11 @@ Dataset details:
 Two ways data quality could affect the model:
 1. Missing or incorrect measurements: If clock frequency or power values are missing or recorded incorrectly, the model may learn the wrong relationships and make inaccurate predictions.
 2. Incorrect labels: If a chip that failed timing is mistakenly labelled as Pass, the model may learn from the wrong result and produce unreliable predictions.
+
+# Sources:
+1. [Google for Developers – Datasets: Data Characteristics](https://developers.google.com/machine-learning/crash-course/overfitting/data-characteristics)
+   - Covers datasets, data types, missing values, noisy data, label errors, and data quality.
+2. [Google for Developers – Machine Learning Glossary](https://developers.google.com/machine-learning/glossary)
+   - Explains important terms such as features, labels, labelled examples, and unlabelled examples.
+3. [IBM – Structured vs. Unstructured Data](https://www.ibm.com/think/topics/structured-vs-unstructured-data)
+   - Explains the differences between structured and unstructured data with examples.
