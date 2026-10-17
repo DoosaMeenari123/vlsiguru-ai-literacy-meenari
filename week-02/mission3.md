@@ -16,68 +16,52 @@ learning, and reinforcement learning. Self-supervised learning is another relate
 A. Supervised Learning:
 The model learns from examples that already contain the correct answers. It uses these examples to predict results for new data.
 Diagram:
-Labelled Data
-(Inputs + Correct Answers)
-          |
-          v
-     Train Model
-          |
-          v
-    Learn Patterns
-          |
-          v
- Predict New Results
+
+```mermaid
+flowchart TD
+    A[Labelled Data] --> B[Train Model]
+    B --> C[Learn Patterns]
+    C --> D[Predict New Results]
+```
+
 Example: A model learns from previous chip measurements labelled Pass or Fail and predicts whether a new chip design will pass timing requirements.
 B. Unsupervised Learning :
 The model receives data without labels and tries to find similarities, groups, or hidden patterns.
-   Unlabelled Data
-          |
-          v
-    Analyse Data
-          |
-          v
-   Find Similarities
-          |
-          v
-  Groups and Patterns
+
+```mermaid
+flowchart TD
+    A[Unlabelled Data] --> B[Analyse Data]
+    B --> C[Find Patterns]
+    C --> D[Create Groups]
+```
+
 Example: A model groups chip designs with similar area, power consumption, and clock frequency without knowing their timing results.
 C. Reinforcement Learning:
 The system learns by taking actions, observing the results, and receiving rewards or penalties. It uses this feedback to improve its future decisions.
-     +-------------+
-     |    Agent    |
-     +-------------+
-            |
-            v
-       Take Action
-            |
-            v
-     +-------------+
-     | Environment |
-     +-------------+
-            |
-            v
-    Reward or Penalty
-            |
-            v
-      Improve Strategy
-            |
-            +----> Repeat
+     
+```mermaid
+flowchart TD
+    A[Agent] --> B[Take Action]
+    B --> C[Environment]
+    C --> D[Receive Reward or Penalty]
+    D --> E[Improve Strategy]
+    E --> A
+```
+
 Example: An agent tries different chip-design settings and receives a reward when it improves timing while staying within power limits.
 # Understanding Self-Supervised Learning
 Self-supervised learning uses the data itself to create training targets. Instead of requiring people to label every example, the system creates a task from the available data and learns by solving it.
 Example: A model receives a sentence with one word hidden and learns to predict the missing word from the surrounding text.
 Simple Diagram:
-    Unlabelled Data
-           |
-           v
- Create Training Targets
-    from the Data
-           |
-           v
-      Train Model
-           |
-           v
-   Learn Useful Patterns
+   
+```mermaid
+flowchart TD
+    A[Unlabelled Data] --> B[Create Targets from Data]
+    B --> C[Train Model]
+    C --> D[Learn Patterns]
+    D --> E[Useful Representations]
+```
+
 # Why Self-Supervised Learning Is Not Always the Same as Unsupervised Learning
 Both approaches can use data without human-provided labels, but they use different learning methods.
 Unsupervised learning generally focuses on discovering patterns, similarities, or groups in data without predefined target answers.
@@ -92,3 +76,7 @@ Self-supervised learning is closely related to unsupervised learning, but the tw
 | Unsupervised Learning | When data has no labels and we want to discover groups or patterns. |
 | Reinforcement Learning | When a system must learn actions through rewards and feedback from its environment. |
 | Self-Supervised Learning | When large amounts of unlabelled data are available and training targets can be created from the data itself. |
+
+# Sources
+1. [Google for Developers – Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/)
+2. [IBM – What Is Reinforcement Learning?](https://www.ibm.com/think/topics/reinforcement-learning)
