@@ -13,6 +13,7 @@ Machine learning can solve different problems depending on the output we expect.
 | Anomaly Detection | Identifies unusual patterns or observations | Sensor readings, test measurements, or normal operating data | An anomaly score or normal/anomalous label |
 | Dimensionality Reduction | Reduces the number of features while preserving useful information | Data containing many features or variables | A smaller set of features or components |
 | Recommendation/Ranking | Suggests relevant items or arranges them by relevance | User preferences, item details, and historical interactions | Recommended items or a ranked list |
+
 # Identify the Input and Expected Output for Each Task
 The following examples show how these machine learning tasks are used in real-world situations, including semiconductor-related applications.
 | No. | Real-world problem | Task type | Input data | Expected output |
@@ -25,8 +26,9 @@ The following examples show how these machine learning tasks are used in real-wo
 | 6 | Recommending courses to students | Recommendation | Student interests, course details, and learning history | A list of recommended courses |
 | 7 | Predicting house prices | Regression | House size, location, number of rooms, and age | Estimated house price |
 | 8 | Filtering spam emails | Classification | Email text, sender information, and message features | Spam or not-spam label |
+
 These examples show that each task has a different purpose and expected output. For example, classification predicts a category, while regression predicts a numerical value.
-# Explain Why Task Type Is Different from Learning Paradigm
+# Why Task Type Is Different from Learning Paradigm
 A task type tells us what the model needs to do, while a learning paradigm tells us how the model learns from data or feedback.
 | Task type | Learning paradigm |
 |---|---|
@@ -35,6 +37,7 @@ A task type tells us what the model needs to do, while a learning paradigm tells
 | Examples include classification, regression, clustering, and anomaly detection | Examples include supervised, unsupervised, reinforcement, and self-supervised learning |
 | Predicting whether a chip is defective is a classification task | Learning from labelled chip examples is supervised learning |
 | Grouping similar wafers is a clustering task | Discovering groups without predefined labels is unsupervised learning |
+
 For example, predicting whether a semiconductor chip is defective is a classification task. If the model learns from labelled examples of defective and non-defective chips, it uses supervised learning.
 Similarly, grouping semiconductor wafers according to their measurements is a clustering task. If the model discovers groups without predefined labels, it uses unsupervised learning.
 Therefore, the task type does not tell us how the model was trained. The same task may be approached using different learning paradigms, depending on the available data and training method
@@ -48,5 +51,14 @@ Different algorithms can be used to solve the same machine learning task. The ch
 | Anomaly Detection | Isolation Forest, One-Class SVM, Local Outlier Factor |
 | Dimensionality Reduction | PCA, t-SNE, Autoencoders |
 | Recommendation/Ranking | Collaborative Filtering, Matrix Factorization, Learning-to-Rank models |
+
 For example, semiconductor defect detection can be performed using a Decision Tree, Random Forest, or neural network. All can be used for classification, but they learn patterns in different ways.
 Similarly, Linear Regression and Random Forest Regressor can both predict semiconductor chip power consumption. The most suitable algorithm depends on the data and the requirements of the application.
+
+# Sources 
+1. **Google – Machine Learning Crash Course**  
+   https://developers.google.com/machine-learning/crash-course/
+2. **Scikit-learn – Getting Started: Fitting and Predicting**  
+   https://scikit-learn.org/stable/getting_started.html
+3. **Google – Machine Learning Resources**  
+   https://developers.google.com/machine-learning
