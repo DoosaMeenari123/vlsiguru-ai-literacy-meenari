@@ -52,16 +52,6 @@ The assignment includes two PNG diagrams to explain the main concepts visually.
 | `data_preparation_flow.png` | Shows the steps involved in collecting, cleaning, labelling, preprocessing, and preparing data for training. |
 | `neural_network_diagram.png` | Shows the input layer, hidden layers, output layer, neurons, weights, and connections in a neural network. |
 
-### 4.1 Data Preparation Flow
-
-![Data Preparation Flow](data_preparation_flow.png)
-
-### 4.2 Neural Network Diagram
-
-![Neural Network Diagram](neural_network_diagram.png)
-
----
-
 ## 5. Repository Structure
 ## Repository Structure
 
